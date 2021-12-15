@@ -1,0 +1,62 @@
+body{
+    background-color: red;
+}
+.text-personal{
+    font-family: 'Poppins', sans-serif;
+    color: white !important;
+}
+.text-personal li  a{
+    color: black;
+    font-weight: bolder;
+}
+.text-personal li a:hover{
+    color: white !important;
+}
+
+.color-per{
+    background-color: #dc3545 !important;
+    color: white;
+}
+.modal-per{
+    background-color: rgba(128, 0, 128, 0.322);
+    width: 20%;
+    margin: auto;
+    height: 100px;
+    margin-top: 30px;
+    text-align: center;
+}
+.red{
+   border: 1px solid red !important;
+}
+.verde{
+    border: 3px solid rgba(0, 184, 9, 0.774) !important;
+ }
+ .hidden{
+     display: none;
+ }
+ .container-propio{
+     position: absolute;
+     top: 0;
+     width: 100%;
+     height: 100vh;
+     background-color: rgba(0, 0, 0, 0.445);
+
+ }
+ .mensaje-divi{
+     width: 50%;
+     height: 70%;
+     background-color: white;
+     border: 1px solid rgba(99, 17, 3, 0.774);
+     text-align: center;
+     align-items: center;
+     line-height: 13em;
+     font-size: 2rem;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.frutas{
+    margin-left: 40px;
+    color: green;
+}
